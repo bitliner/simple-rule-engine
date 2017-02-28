@@ -1,6 +1,6 @@
 # simple-rules-engine
 
-A simple rules engine written in Node.JS.
+Simple rules engine written in Node.JS.
 
 ## Usage
 
