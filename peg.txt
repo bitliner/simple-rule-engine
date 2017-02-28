@@ -1,0 +1,20 @@
+regex = a:el*{
+  return a.join('')
+}
+
+el = word / token / _
+
+
+word = "_w_" {
+  return "([A-z]+)"
+}
+
+token = token:[A-z]+ {
+  return token.join('');
+}
+
+_  = [ \t\r\n] {
+  return " +"
+}
+
+
